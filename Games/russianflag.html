@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Russian Flag with National Anthem</title>
+    <style>
+        body {
+            margin: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            overflow: hidden;
+            position: relative;
+        }
+        .flag {
+            width: 300px;
+            height: 200px;
+            border: 1px solid black;
+            cursor: pointer;
+        }
+        .stripe {
+            height: 33.33%;
+        }
+        .white {
+            background-color: white;
+        }
+        .blue {
+            background-color: blue;
+        }
+        .red {
+            background-color: red;
+        }
+        .back-link {
+            position: absolute;
+            top: 10px;
+            left: 10px;
+            text-decoration: none;
+            color: black;
+            background-color: white;
+            padding: 5px 10px;
+            border: 1px solid black;
+        }
+    </style>
+</head>
+<body>
+
+<a href="https://mochis-shitty-website.neocities.org" class="back-link">Back</a>
+
+<div class="flag" onclick="playAnthemAndChangeBackground()">
+    <div class="stripe white"></div>
+    <div class="stripe blue"></div>
+    <div class="stripe red"></div>
+    <p>Click me!</p>
+</div>
+
+<audio id="anthem" src="https://www.russian-translation-pros.com/audio/russian-federation-national-anthem.mp3"></audio>
+
+<script>
+    function playAnthemAndChangeBackground() {
+        var anthem = document.getElementById('anthem');
+        anthem.play();
+        document.body.style.backgroundImage = "url('https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/96b810d3-8d60-40d3-a7d5-1071fd54ecfc/dgao5fo-811f1d19-177b-42fb-b85f-42d4e28f78d6.gif?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzk2YjgxMGQzLThkNjAtNDBkMy1hN2Q1LTEwNzFmZDU0ZWNmY1wvZGdhbzVmby04MTFmMWQxOS0xNzdiLTQyZmItYjg1Zi00MmQ0ZTI4Zjc4ZDYuZ2lmIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.m9UdnU0wuB2FwU9xqENfuFAsNtsnS9LTocbPBw6ziqU')";
+        document.body.style.backgroundRepeat = "repeat";
+    }
+</script>
+
+</body>
+</html>
+

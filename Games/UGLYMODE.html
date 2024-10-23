@@ -1,0 +1,412 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Epic Ass Website</title>
+    <style>
+    .wrapper { 
+  height: 100%;
+  width: 100%;
+  left:0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  position: absolute;
+background: linear-gradient(124deg, #ff2400, #e81d1d, #e8b71d, #e3e81d, #1de840, #1ddde8, #2b1de8, #dd00f3, #dd00f3);
+background-size: 1800% 1800%;
+
+-webkit-animation: rainbow 18s ease infinite;
+-z-animation: rainbow 18s ease infinite;
+-o-animation: rainbow 18s ease infinite;
+  animation: rainbow 18s ease infinite;}
+
+@-webkit-keyframes rainbow {
+    0%{background-position:0% 82%}
+    50%{background-position:100% 19%}
+    100%{background-position:0% 82%}
+}
+@-moz-keyframes rainbow {
+    0%{background-position:0% 82%}
+    50%{background-position:100% 19%}
+    100%{background-position:0% 82%}
+}
+@-o-keyframes rainbow {
+    0%{background-position:0% 82%}
+    50%{background-position:100% 19%}
+    100%{background-position:0% 82%}
+}
+@keyframes rainbow { 
+    0%{background-position:0% 82%}
+    50%{background-position:100% 19%}
+    100%{background-position:0% 82%}
+}
+        body {
+            margin: 0;
+             linear-gradient(124deg, #ff2400, #e81d1d, #e8b71d, #e3e81d, #1de840, #1ddde8, #2b1de8, #dd00f3, #dd00f3);
+background-size: 1800% 1800%;
+            font-family: 'Comic Sans MS', cursive, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            overflow: auto;
+            text-align: center;
+            font-size: 150%;
+            color: #ff00ff; /* Ugly pink color */
+            background: linear-gradient(to right, violet, indigo, blue, green, yellow, orange, red);
+            animation: rainbow 1s infinite linear, glow 1s infinite alternate
+        }
+        .flag {
+            width: 300px;
+            height: 200px;
+            border: 1px solid black;
+            cursor: pointer;
+        }
+        .stripe {
+            height: 33.33%;
+        }
+        .white {
+            background-color: white;
+        }
+        .blue {
+            background-color: blue;
+        }
+        .red {
+            background-color: red;
+        }
+        .container {
+            width: 100%;
+            background: url('https://media1.tenor.com/m/Ow4aJ_k2rgkAAAAC/cat-monday-left-me-broken-cat.gif') repeat;
+            border: 5px dashed magenta;
+            box-shadow: 0 0 20px 10px linear-gradient(to right, violet, indigo, blue, green, yellow, orange, red);;
+            position: relative; /* Ensure proper positioning of overflow text */
+            overflow: visible; /* Allow text to overflow */
+            padding-bottom: 100px; /* Extra space at the bottom for links */
+            display: flex; /* Use flexbox for layout */
+            justify-content: center; /* Center the items horizontally */
+            align-items: center; /* Center the items vertically */
+        }
+        .blue-container {
+            background-color: lightblue;
+            padding: 10px;
+            margin: 10px;
+            width: 150px; /* Adjust the width as needed */
+            height: auto; /* Adjust the height as needed */
+            box-shadow: 0 0 20px pink, 0 0 20px magenta; /* Ugly shadow */
+        }
+        .lime-container {
+            box-shadow: inset -5px 0px 0px brown, inset 5px 0px 0px brown, 0 0 20px magenta; 
+            padding: 10px;
+            margin: 10px;
+            width: 50%; /* Adjust the width as needed */
+            max-width: 800px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .brown-container {
+            background: url('https://i.pinimg.com/564x/c4/68/5d/c4685db3523dd588904f46cffcbeba73.jpg') repeat;
+            color: white;
+            padding: 10px;
+            box-shadow: 0 0 20px magenta; /* Ugly magenta shadow */
+            position: relative; /* Ensure text overlaps */
+            overflow: visible; /* Allow text to overflow */
+            width: 60%; /* Reduced width */
+            max-width: 700px; /* Optional: Limit maximum width */
+        }
+        .brown-container p, .brown-container h1 {
+            margin: 0; /* Ensure text overlaps but not excessively */
+            padding: 0;
+            position: relative;
+        }
+        .rainbow-text {
+            font-size: 2em;
+            font-weight: bold;
+            background: linear-gradient(to right, violet, indigo, blue, green, yellow, orange, red);
+            -webkit-background-clip: text;
+            background-clip: text;
+            color: transparent;
+            animation: rainbow 1s infinite linear, glow 1s infinite alternate;
+            text-shadow: 0 0 10px red, 0 0 20px orange, 0 0 30px yellow, 0 0 40px green, 0 0 50px blue, 0 0 60px indigo, 0 0 70px violet; /* Rainbow glow */
+        }
+        @keyframes rainbow {
+            0% { background-position: 0% 50%; }
+            50% { background-position: 100% 50%; }
+            100% { background-position: 0% 50%; }
+        }
+        @keyframes glow {
+            0% { text-shadow: 0 0 5px red, 0 0 10px orange, 0 0 15px yellow, 0 0 20px green, 0 0 25px blue, 0 0 30px indigo, 0 0 35px violet; }
+            50% { text-shadow: 0 0 10px red, 0 0 20px orange, 0 0 30px yellow, 0 0 40px green, 0 0 50px blue, 0 0 60px indigo, 0 0 70px violet; }
+            100% { text-shadow: 0 0 5px red, 0 0 10px orange, 0 0 15px yellow, 0 0 20px green, 0 0 25px blue, 0 0 30px indigo, 0 0 35px violet; }
+        }
+        img {
+            max-width: 100%;
+            height: auto;
+            margin: 0;
+            animation: rotate 5s linear infinite;
+        }
+        @keyframes rotate {
+            0% { transform: rotate(0deg); }
+            100% { transform: rotate(360deg); }
+        }
+        p, h1, .scriptina-section, marquee, a, blink {
+            margin: 0;
+            padding: 0;
+        }
+        .corner-photo {
+            position: absolute;
+            width: 100px; /* Adjust size as needed */
+            height: auto;
+            z-index: 1000;
+        }
+        .top-left {
+            top: 0;
+            left: 0;
+        }
+        .top-right {
+            top: 0;
+            right: 0;
+        }
+        .bottom-left {
+            bottom: 0;
+            left: 0;
+        }
+        .bottom-right {
+            bottom: 0;
+            right: 0;
+        }
+        a {
+            color: yellow; /* Ensure links are visible */
+            text-decoration: underline; /* Underline links for better visibility */
+            display: block; /* Make each link a block element */
+            padding: 10px; /* Add padding around links */
+        }
+
+        @media (max-width: 768px) {
+            body {
+                font-size: 100%;
+            }
+            .container {
+                flex-direction: column; /* Stack containers vertically on mobile */
+                padding-bottom: 50px; /* Adjust padding for mobile */
+            }
+            .blue-container,
+            .lime-container,
+            .brown-container {
+                width: 90%; /* Adjust width for mobile */
+                max-width: none; /* Remove maximum width restriction */
+            }
+            .rainbow-text {
+                font-size: 1.5em; /* Adjust font size for mobile */
+            }
+            .corner-photo {
+                width: 50px; /* Adjust photo size for mobile */
+            }
+        }
+
+        @media (max-width: 480px) {
+            body {
+                font-size: 80%;
+            }
+            .container {
+                padding-bottom: 30px; /* Further adjust padding for smaller screens */
+            }
+            .blue-container,
+            .lime-container,
+            .brown-container {
+                width: 100%; /* Full width for very small screens */
+            }
+            .rainbow-text {
+                font-size: 1.2em; /* Further adjust font size for smaller screens */
+            }
+            .corner-photo {
+                width: 30px; /* Adjust photo size for smaller screens */
+            }
+        }
+    </style>
+</head>
+<body>
+THIS IS THE 193rd LINE OF CODE!!
+    <audio autoplay loop>
+        <source src="https://dn720301.ca.archive.org/0/items/undertaleoriginalsoundtrack/Undertale%20OST%20-%20044%20Tem%20Shop.mp3" type="audio/mpeg">
+        Your browser does not support the audio element.
+    </audio>
+    
+    <audio autoplay loop>
+        <source src="https://www.myinstants.com/media/sounds/monday-left-me-broken.mp3" type="audio/mpeg">
+        Your browser does not support the audio element.
+    </audio>
+    
+    <audio autoplay loop>
+        <source src="https://media.memesoundeffects.com/2023/12/Metal20Pipes20Falling20Sound.mp3" type="audio/mpeg">
+        Your browser does not support the audio element.
+    </audio>
+    
+    <audio autoplay loop>
+        <source src="https://www.myinstants.com/media/sounds/what-the-hell-meme-sound-effect.mp3" type="audio/mpeg">
+        Your browser does not support the audio element.
+    </audio>
+    
+        <audio autoplay loop>
+        <source src="https://www.myinstants.com/media/sounds/vine-boom.mp3" type="audio/mpeg">
+        Your browser does not support the audio element.
+    </audio>
+    
+    <audio autoplay loop>
+        <source src="https://ia601200.us.archive.org/30/items/04MacarenaLosDelRio/04%20-%20Macarena%20-%20Los%20Del%20Rio.mp3" type="audio/mpeg">
+        Your browser does not support the audio element.
+    </audio>
+    <audio autoplay loop>
+        <source src="https://archive.org/download/tvtunes_26709/Crazy%20Frog%20-%20Axel%20F.mp3" type="audio/mpeg">
+        Your browser does not support the audio element.
+    </audio>
+    <script>
+    document.addEventListener('DOMContentLoaded', function() {
+    const audioElement = document.getElementById('audio');
+    const audioContext = new (window.AudioContext || window.webkitAudioContext)();
+    const source = audioContext.createMediaElementSource(audioElement);
+
+    // Create a gain node for volume control
+    const gainNode = audioContext.createGain();
+    gainNode.gain.value = 1; // Full volume (1 is the default maximum)
+
+    // Create a bass boost filter
+    const bassBoost = audioContext.createBiquadFilter();
+    bassBoost.type = 'lowshelf';
+    bassBoost.frequency.value = 200; // Frequency below which boost is applied
+    bassBoost.gain.value = 15; // Gain value for bass boost
+
+    // Connect the nodes
+    source.connect(bassBoost);
+    bassBoost.connect(gainNode);
+    gainNode.connect(audioContext.destination);
+
+    // Play the audio context
+    audioElement.addEventListener('play', function() {
+        audioContext.resume();
+    });
+});
+    </script>
+    <script>
+        const audio = document.getElementById('myAudio');
+        audio.play();
+        audio.addEventListener('timeupdate', function() {
+            if (audio.currentTime >= 5) {
+                audio.currentTime = 0;
+                audio.play(0);
+            }
+        });
+    </script>
+    
+    <audio autoplay loop>
+        <source src="https://media.memesoundeffects.com/2024/07/its-coming-out.mp3" type="audio/mpeg">
+        Your browser does not support the audio element.
+    </audio>
+
+        });
+    </script>
+    <img src="https://cdn.discordapp.com/attachments/1255509018638553148/1266284403605241886/Untitled310_20240726144123.png?ex=66a496c0&is=66a34540&hm=5db723159daa637446d9a6294a255780bf9065491fc1433ff5537a803a19c1ba&" class="corner-photo top-left" alt="bruh">
+    <img src="https://cdn.discordapp.com/attachments/1255509018638553148/1266284396244373616/Untitled310_20240726143856.png?ex=66a496be&is=66a3453e&hm=3d1e2920abbdd4cc365a331c2804c26a9c2935a18b27a25858f653cdd73c0ae3&" class="corner-photo top-right" alt="bruh">
+    <img src="https://cdn.discordapp.com/attachments/1255509018638553148/1266285695371317318/Untitled310_20240726144647.png?ex=66a497f4&is=66a34674&hm=b47b8f970ab9f4695befffa6acb861a3b27024d41e6a17d9a63e075b2211a0b5&" class="corner-photo bottom-left" alt="bruh">
+    <img src="https://cdn.discordapp.com/attachments/1255509018638553148/1266285180101066804/Untitled310_20240726144501.png?ex=66a49779&is=66a345f9&hm=bf3b119a84101d1f6b15178c301207aff7704634bf267944b9436bb107a2de84&" class="corner-photo bottom-right" alt="bruh">
+    <div class="dvd-logo" id="dvd-logo"></div>
+    <div class="container">
+        <div class="blue-container">
+            Ugly Blue Container
+            YEAHHHH
+            <img src="https://cdn.discordapp.com/attachments/194772750957674497/1266297483542134836/image-56.png?ex=66a4a2ee&is=66a3516e&hm=5a560abc86b3252c6a75d5b8cb3171ebf9f75d12d683acedad9f5abb5d9aa6dd&" alt="pie">
+            <iframe width="110" height="200" src="https://www.myinstants.com/instant/jixaw-metal-pipe-falling-sound-28270/embed/" frameborder="0" scrolling="no"></iframe>
+            <iframe width="110" height="200" src="https://www.myinstants.com/instant/jixaw-metal-pipe-falling-sound-28270/embed/" frameborder="0" scrolling="no"></iframe>
+            <iframe width="110" height="200" src="https://www.myinstants.com/instant/jixaw-metal-pipe-falling-sound-28270/embed/" frameborder="0" scrolling="no"></iframe>
+            <iframe width="110" height="200" src="https://www.myinstants.com/instant/jixaw-metal-pipe-falling-sound-28270/embed/" frameborder="0" scrolling="no"></iframe>
+            <iframe width="110" height="200" src="https://www.myinstants.com/instant/jixaw-metal-pipe-falling-sound-28270/embed/" frameborder="0" scrolling="no"></iframe>
+            <p>Visit my Twitter: <a href="https://x.com/IHateMakingAccs">click here</a></p>
+            <p>Visit my Twitter: <a href="https://x.com/IHateMakingAccs">click here</a></p>
+            <p>Visit my Twitter: <a href="https://x.com/IHateMakingAccs">click here</a></p>
+            <p>Visit my Twitter: <a href="https://x.com/IHateMakingAccs">click here</a></p>
+            <p>Visit my Twitter: <a href="https://x.com/IHateMakingAccs">click here</a></p>
+        </div>
+        <div class="lime-container">
+            <div class="brown-container">
+                <marquee>eggs</marquee>
+                <h1 class="rainbow-text"><mark class="red">MOCHIS EPIC WEBSITE THAT WASN'T MADE IN CHATGPT AT ALL!!!!!!</h1>
+                buy stuff at
+                <span style="font-size:36px;line-height:43px;">https://www.arngren.net/</span>
+                this website is epicccc<img src="https://www.thisiswhyimbroke.com/assets/images/header-logo.png" alt="ThisIsWhyImBroke Logo">
+                <img src="https://gifdb.com/images/high/squidward-showing-funny-twerk-v6bnog2ke7q7jo9j.webp" alt="twerk">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/k85mRPqvMbE?si=pqdQxj9DoeVl9mRc&amp;controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/__djlgmUIO4?si=_uP1gzdtKseGWe4j&amp;controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+<div class="flag" onclick="playAnthemAndChangeBackground()">
+    <div class="stripe white"></div>
+    <div class="stripe blue"></div>
+    <div class="stripe red"></div>
+</div>
+    <p>Click me!</p>
+<audio id="anthem" src="https://www.russian-translation-pros.com/audio/russian-federation-national-anthem.mp3"></audio>
+
+<script>
+    function playAnthemAndChangeBackground() {
+        var anthem = document.getElementById('anthem');
+        anthem.play();
+        document.body.style.backgroundImage = "url('https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/96b810d3-8d60-40d3-a7d5-1071fd54ecfc/dgao5fo-811f1d19-177b-42fb-b85f-42d4e28f78d6.gif?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzk2YjgxMGQzLThkNjAtNDBkMy1hN2Q1LTEwNzFmZDU0ZWNmY1wvZGdhbzVmby04MTFmMWQxOS0xNzdiLTQyZmItYjg1Zi00MmQ0ZTI4Zjc4ZDYuZ2lmIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.m9UdnU0wuB2FwU9xqENfuFAsNtsnS9LTocbPBw6ziqU')";
+        document.body.style.backgroundRepeat = "repeat";
+    }
+</script>
+                <img src="https://i.pinimg.com/736x/7c/54/bf/7c54bfb88aa50257a8c9ee2702b893b4.jpg" alt="squit wart">
+                  <marquee>YAYAYAYYAYAYAYAYAYAYAYAYAYAYYAYAYAYAYAYAYYAYAYAYAYYAY!!!!</marquee>
+                <img src="Screenshot 2024-07-25 200701.png" alt="e">
+                  <marquee>YAYAYAYYAYAYAYAYAYAYAYAYAYAYYAYAYAYAYAYAYYAYAYAYAYYAY!!!!</marquee>
+                <p>Welcome to my epic webpage where you can do whatever you want!</p>
+                  <marquee>YAYAYAYYAYAYAYAYAYAYAYAYAYAYYAYAYAYAYAYAYYAYAYAYAYYAY!!!!</marquee>
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQMI5kxltdR3KFgBmjDtLtw_0T2oE9PJpvR9A&s" alt="shrok">
+                  <marquee>YAYAYAYYAYAYAYAYAYAYAYAYAYAYYAYAYAYAYAYAYYAYAYAYAYYAY!!!!</marquee>
+                <blink>read this if you can!! HAH</blink>
+                  <marquee>YAYAYAYYAYAYAYAYAYAYAYAYAYAYYAYAYAYAYAYAYYAYAYAYAYYAY!!!!</marquee>
+                <p>Here's a cat doing stuff!</p>
+                  <marquee>YAYAYAYYAYAYAYAYAYAYAYAYAYAYYAYAYAYAYAYAYYAYAYAYAYYAY!!!!</marquee>
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQABgWgbiHtmxs4tIsGIuI7hJgCGWOQO4E31hUxOXcXvt5pvtbGLJge8toudmbqf9aIA-s&usqp=CAU" alt="cow cat">
+                  <marquee>YAYAYAYYAYAYAYAYAYAYAYAYAYAYYAYAYAYAYAYAYYAYAYAYAYYAY!!!!</marquee>
+                <div class="scriptina-section">
+                  <marquee>YAYAYAYYAYAYAYAYAYAYAYAYAYAYYAYAYAYAYAYAYYAYAYAYAYYAY!!!!</marquee>
+                <iframe id="appPlayer" src="https://d21u3ic0kp9e91.cloudfront.net/elasticman/0/index.html" style="height: 883px;"></iframe>
+                    <p>SO EPIC!!!.</p>
+        <h1><mark class="red">IM MOCHI</h1>
+                <p><mark class="red">welcome to my website! this website is supposed to be the ugliest. the first time i saw the yale school of arts website, i always wanted to make something uglier. so please enjoy this crap :D anyways, this is my first webpage and i am gonna put the random crap i make such as: games, art, and other crap youd expect from a webpage.</p>
+                <h1><mark class="red">HERE IS THE STUFF IM WORKING ON!!!</h1>
+                <ul>
+               <li><mark class="red">**HATEFUL** (there is no progress on this game right now except of concept art)</li>
+               <li><mark class="red">Driving in Detroit (black man in america simulator)</li>
+               <li><mark class="red">nothing else rn, if you need help with stuff, email me or go to my forum at  <a href="https://mochis-shitty-websit.boards.net/">https://mochis-shitty-websit.boards.net/</a></li>
+                </ul>
+                  </div>
+                  <p><mark class="red">Anyways, I don't know what else to add...</p>
+                  <p>Email me at <a href="mailto:mochiisthestinky@icloud.com">mochiisthestinky@icloud.com</a></p>
+                  <p>Visit my Twitter: <a href="https://x.com/IHateMakingAccs">click here</a></p>
+                  <p>Patreon link: <a href="https://www.patreon.com/MochiEggdestroyer">press it</a></p>
+                  <p>Games: <a href="https://mochis-shitty-website.neocities.org/games">press it</a></p>
+                  <p>Art: <a href="https://mochis-shitty-website.neocities.org/art">press it</a></p>
+                  <p>Forum Page: <a href="mochis-shitty-websit.boards.net">press it</a></p>
+                  </div>
+                </div>
+            <div class="blue-container">
+            Ugly Blue Container
+            YEAHHH
+            <img src="https://cdn.discordapp.com/attachments/194772750957674497/1266297483542134836/image-56.png?ex=66a4a2ee&is=66a3516e&hm=5a560abc86b3252c6a75d5b8cb3171ebf9f75d12d683acedad9f5abb5d9aa6dd&" alt="pie">
+            <iframe width="110" height="200" src="https://www.myinstants.com/instant/jixaw-metal-pipe-falling-sound-28270/embed/" frameborder="0" scrolling="no"></iframe>
+            <iframe width="110" height="200" src="https://www.myinstants.com/instant/jixaw-metal-pipe-falling-sound-28270/embed/" frameborder="0" scrolling="no"></iframe>
+            <iframe width="110" height="200" src="https://www.myinstants.com/instant/jixaw-metal-pipe-falling-sound-28270/embed/" frameborder="0" scrolling="no"></iframe>
+            <iframe width="110" height="200" src="https://www.myinstants.com/instant/jixaw-metal-pipe-falling-sound-28270/embed/" frameborder="0" scrolling="no"></iframe>
+            <iframe width="110" height="200" src="https://www.myinstants.com/instant/jixaw-metal-pipe-falling-sound-28270/embed/" frameborder="0" scrolling="no"></iframe>
+          <p>Visit my Twitter: <a href="https://x.com/IHateMakingAccs">click here</a></p>
+          <p>Visit my Twitter: <a href="https://x.com/IHateMakingAccs">click here</a></p>
+          <p>Visit my Twitter: <a href="https://x.com/IHateMakingAccs">click here</a></p>
+          <p>Visit my Twitter: <a href="https://x.com/IHateMakingAccs">click here</a></p>
+          <p>Visit my Twitter: <a href="https://x.com/IHateMakingAccs">click here</a></p>
+          </div>
+        </div>
+      </body>
+    </html>
+THIS IS THE 338th LINE OF CODE!!
+

@@ -1,0 +1,30 @@
+        body {
+            margin: auto;
+	    text-align: center;
+            height: 100vh;
+            font-family: "Comic Sans MS", "Comic Sans", cursive;
+            background: linear-gradient(45deg, #98ff98 25%, #ffffff 25%, #ffffff 50%, #98ff98 50%, #98ff98 75%, #ffffff 75%);
+            background-size: 100px 100px; 
+	    align-items: center;
+	}
+	@keyframes rainbow {
+            0% { color: red; }
+            16.66% { color: orange; }
+            33.33% { color: yellow; }
+            50% { color: green; }
+            66.66% { color: blue; }
+            83.33% { color: indigo; }
+            100% { color: violet; }
+        }
+	h1 {
+	    animation: rainbow 1s infinite;
+	    font-size: 70px;
+            font-weight: bold;
+	    text-shadow: 2px 2px 5px red;
+	}
+	p {
+	    font-size: 30px;
+	}
+	li {
+	    font-size: 30px;	
+	}
